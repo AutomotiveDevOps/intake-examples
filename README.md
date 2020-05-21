@@ -3,7 +3,15 @@ Intake Examples
 
 This repository includes example notebooks and data packages for intake.
 
-They should run locally if you download this repository. They are also available in a running environment on the cloud by clicking on the link below:
+They should run locally if you download this repository. 
+
+The preferred local method is with [```repo2docker```](https://github.com/jupyter/repo2docker).
+
+  git clone https://github.com/intake/intake-examples.git
+  cd intake-examples
+  repo2docker .
+
+They are also available in a running environment on the cloud by clicking on the link below:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/intake/intake-examples/master)
 
